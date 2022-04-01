@@ -47,7 +47,8 @@ textarea {
   color: #000000;
   border-top: 2px solid #000000;
   border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
+  border-bottom-left-radius: 20px;
+  
 }
 
 .past {
@@ -74,13 +75,22 @@ textarea {
   font-weight: bold;
 }
 
-.saveBtn i:hover {
+.btn :hover {
+  color: aliceblue;
   font-size: 20px;
-  transition: all 0.3s ease-in-out;
+  font-weight: bolder;
+  /* transition: all 0.3s ease-in-out; */
 }
 
- 
-  
 
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  main {
+    max-width: 1200px;
+  }
+}
   
 
